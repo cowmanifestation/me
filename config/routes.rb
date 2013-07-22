@@ -1,11 +1,11 @@
 Me::Application.routes.draw do
   root :to => 'static_pages#about'
 
-  get "static_pages/about"
+  match "/about",   to: "static_pages#about"
 
-  get "static_pages/resume"
+  match "/resume",  to: "static_pages#resume"
 
-  get "static_pages/contact"
+  match "/contact", to: "static_pages#contact"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
