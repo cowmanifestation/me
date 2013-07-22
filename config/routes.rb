@@ -1,4 +1,6 @@
 Me::Application.routes.draw do
+  root :to => 'static_pages#about'
+
   get "static_pages/about"
 
   get "static_pages/resume"
