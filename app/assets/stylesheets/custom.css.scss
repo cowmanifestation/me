@@ -3,12 +3,27 @@
 /* universal */
 
 html {
-  background: url("IMG_1583.jpg") no-repeat center center fixed;
+  background: url("IMG_1583.jpg") no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   overflow-y: scroll;
+}
+
+body {
+  margin: 0; 
+  padding: 0;
+  text-align: center;
+}
+  
+#content { 
+  position: fixed;
+  width: 700px;
+  margin: 100px;
+  h1 {
+    color: white;
+  }
 }
 
 section {
@@ -36,7 +51,6 @@ h1 {
 }
 
 div.center.hero-unit {
-  position: fixed;
   margin: 0px auto;
   background-color: transparent;
   h1 {
