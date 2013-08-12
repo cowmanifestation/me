@@ -20,15 +20,18 @@ body {
 #content { 
   position: fixed;
   width: 700px;
+  height: 200px;
   margin: 100px;
+  background-color: rgba(255,255,255,0.25);
   h1 {
-    color: white;
+    margin: 30px;
+    color: black;
   }
 
   p {
     margin:40px;
     width:580px;
-    color: white;
+    color: black;
   }
 }
 
